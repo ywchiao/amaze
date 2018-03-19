@@ -1,0 +1,51 @@
+{
+  "name": "amaze",
+  "version": "0.1.0-build",
+  "description": "A man's",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c && npm run commit && npm version prerelease",
+    "commit": "git add . -A && git commit -m.",
+    "postversion": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "node versioning.js && git add ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywchiao/amaze.git"
+  },
+  "keywords": [
+    "rogue-like"
+  ],
+  "author": "Yiwei Chiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ywchiao/amaze/issues"
+  },
+  "homepage": "https://github.com/ywchiao/amaze#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "rollup": "^0.57.1",
+    "rollup-plugin-babel": "^3.0.3"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 versions"
+            ]
+          },
+          "modules": false
+        }
+      ]
+    ],
+    "plugins": [
+      "external-helpers"
+    ]
+  }
+}

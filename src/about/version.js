@@ -4,7 +4,7 @@
 *  @author     Yiwei Chiao (undefined)
 *  @date       03/19/2018 created.
 *  @date       03/19/2018 last modified.
-*  @version    0.1.0-build
+*  @version    0.1.0-build.0
 *  @since      0.1.0
 *  @copyright  MIT, © 2018 undefined
 *  @details
@@ -17,7 +17,7 @@
 
 export const ABOUT = {
   "name": "Amaze",
-  "version": "0.1.0-build",
+  "version": "0.1.0-build.0",
   "description": "A man's",
   "author": "Yiwei Chiao",
   "license": "MIT",

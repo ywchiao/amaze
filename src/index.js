@@ -13,7 +13,10 @@
  */
 'use strict';
 
+import { config } from './amaze/amaze.js';
+
 window.addEventListener('load', () => {
+  let game = new Phaser.Game(config);
 });
 
 // index.js

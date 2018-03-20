@@ -79,7 +79,7 @@
 
   window.addEventListener('load', function () {
     console.log('window loaded');
-    //  let game = new Phaser.Game(config);
+    var game = new Phaser.Game(config);
     console.log('Phaser.Game');
   });
 

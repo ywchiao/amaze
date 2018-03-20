@@ -83,6 +83,8 @@
     console.log('Phaser.Game');
   });
 
+  console.log('I am here');
+
   // index.js
 
 }());

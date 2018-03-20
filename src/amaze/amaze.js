@@ -30,6 +30,7 @@ var config = {
 };
 
 function preload() {
+  console.log('preload() called');
   this.load.setBaseURL('http://labs.phaser.io');
 
   this.load.image('sky', 'assets/skies/space3.png');
@@ -38,6 +39,7 @@ function preload() {
 }
 
 function create () {
+  console.log('create() called');
   this.add.image(400, 300, 'sky');
 
   var particles = this.add.particles('red');

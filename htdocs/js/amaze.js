@@ -1,0 +1,1 @@
+../../out/amaze.js

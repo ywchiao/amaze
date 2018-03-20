@@ -16,7 +16,9 @@
 import { config } from './amaze/amaze.js';
 
 window.addEventListener('load', () => {
+  console.log('window loaded');
   let game = new Phaser.Game(config);
+  console.log('Phaser.Game');
 });
 
 // index.js

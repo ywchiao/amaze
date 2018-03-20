@@ -78,7 +78,9 @@
    */
 
   window.addEventListener('load', function () {
+    console.log('window loaded');
     var game = new Phaser.Game(config);
+    console.log('Phaser.Game');
   });
 
   // index.js

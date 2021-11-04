@@ -75,8 +75,8 @@
    *  The entry point of Amaze.
    */
   window.addEventListener('load', function () {
-    var game = new Phaser.Game(config);
+    new Phaser.Game(config);
   }); // index.js
 
-}());
+})();
 //# sourceMappingURL=amaze.js.map

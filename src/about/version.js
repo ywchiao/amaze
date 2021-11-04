@@ -3,10 +3,10 @@
 *  @brief      The Version information module of the Amaze.
 *  @author     Yiwei Chiao (undefined)
 *  @date       03/19/2018 created.
-*  @date       11/17/2020 last modified.
-*  @version    0.1.0-build.9
+*  @date       11/04/2021 last modified.
+*  @version    0.1.0-build.10
 *  @since      0.1.0
-*  @copyright  MIT, © 2018-2020 undefined
+*  @copyright  MIT, © 2018-2021 undefined
 *  @details
 * 
 *  The Version information module of the Amaze.
@@ -17,12 +17,12 @@
 
 export const ABOUT = {
   "name": "Amaze",
-  "version": "0.1.0-build.9",
+  "version": "0.1.0-build.10",
   "description": "A man's",
   "author": "Yiwei Chiao",
   "license": "MIT",
-  "copyright": "2018-2020",
-  "built": "11/17/2020"
+  "copyright": "2018-2021",
+  "built": "11/04/2021"
 };
 
 // about/version.js

@@ -77,7 +77,7 @@ const postfix = ';\n\n\/\/ about\/version.js\n';
  */
 
 import { writeFile } from 'node:fs';
-import pkg from './package.json' assert {type: "json"};
+import pkg from './package.json' with {type: "json"};
 
 (() => {
   let output = './src/about/version.js';

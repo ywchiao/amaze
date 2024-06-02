@@ -76,7 +76,7 @@ const postfix = ';\n\n\/\/ about\/version.js\n';
  * @returns {undefined}
  */
 (() => {
-  let fs = require('fs');
+  import { fs } from 'node:fs';
 
   let pkg = require('./package.json');
   let output = './src/about/version.js';

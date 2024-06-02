@@ -75,8 +75,10 @@ const postfix = ';\n\n\/\/ about\/version.js\n';
  * @since 0.1.0
  * @returns {undefined}
  */
+
+import { writeFile } from 'node:fs';
+
 (() => {
-  import { writeFile } from 'node:fs';
 
   let pkg = require('./package.json');
   let output = './src/about/version.js';
@@ -88,7 +90,7 @@ const postfix = ';\n\n\/\/ about\/version.js\n';
   ver['name'] = capitalizeFirstLetter(ver['name']);
   ver['copyright'] = created.slice(6, 10);
 
-  fs.writeFile(
+  writeFile(
     output,
     prefix(ver) + JSON.stringify(ver, null, '  ') + postfix,
     (err) => {
